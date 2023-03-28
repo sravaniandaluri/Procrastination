@@ -105,7 +105,7 @@ class HomeScreen extends StatelessWidget {
             "Home page",
             textScaleFactor: 2,
           ),
-          TextButton(
+          FilledButton(
               onPressed: () => {
                     Navigator.of(context).push(
                         MaterialPageRoute(builder: (context) => MainCalendar()))

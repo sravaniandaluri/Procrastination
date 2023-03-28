@@ -37,8 +37,7 @@ class _MainCalendarState extends State<MainCalendar> {
 
   List<Event> _getEventsForDay(DateTime day) {
     // Implementation example
-    print(kEvents[day]);
-    return kEvents[day] ?? [];
+    return [];
   }
 
   List<Event> _getEventsForRange(DateTime start, DateTime end) {
